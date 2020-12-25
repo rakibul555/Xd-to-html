@@ -1,0 +1,130 @@
+/* ==========================================================================
+   Base styles: opinionated defaults and responsive in others device
+========================================================================== */
+
+
+/* Normal desktop :992px. */
+@media (max-width: 1169px) {
+
+
+}
+
+/* Mini laptop or destop */
+@media (max-width: 992px){
+   /* .header-article {
+      max-width: 100%;
+      margin: 0 auto; */
+
+      /* section title */
+      .section-img::before {
+         content: "";
+         position: absolute;
+         width: 50px;
+         left: 38% !important;
+         
+      }   .section-img::after {
+         right: 38% !important;
+         content: "";
+         position: absolute;
+         width: 50px;
+      }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (max-width: 768px){
+   .header-article {
+      max-width: 100% !important;
+      text-align: center !important;
+      right: 15% !important;
+      margin-top: 15em !important;
+    }
+    .header-article h2 {
+      font-size: 57px !important;
+    }
+    .header-article p {
+      font-size: 24px !important;
+      margin-top: -33px !important;
+    }
+    .header-article .header-article-btn {
+      font-size: 15px !important;
+      padding: 13px 24px !important;
+      margin-top: 1px !important;
+    }
+
+
+    /* service */
+    div#service {
+      padding: 50px 0px 50px 0px !important;
+  }
+
+    /* video */
+    div#video {
+      margin-top: 30px !important;
+  }
+
+
+    /* section title */
+    
+   .section-img::before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      left: 38% !important;
+      
+   }   .section-img::after {
+      right: 38% !important;
+      content: "";
+      position: absolute;
+      width: 50px;
+   }
+
+}
+
+@media (max-width: 668px){
+   /* .header-article {
+      max-width: 100%;
+      margin: 0 auto; */
+
+      /* section title */
+      .section-img::before {
+         content: "" !important;
+         position: absolute !important;
+         width: 40px !important;
+         left: 35% !important;
+         
+      }   .section-img::after {
+         right: 35% !important;
+         content: "" !important;
+         position: absolute !important;
+         width: 40px !important;
+      }
+}
+
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.c-container {width:300px}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+.section-img::before {
+   content: "";
+   position: absolute;
+   width: 50px;
+   left: 38% !important;
+   
+}   .section-img::after {
+   right: 38% !important;
+   content: "";
+   position: absolute;
+   width: 50px;
+}
+ 
+}
+ 
